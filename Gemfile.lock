@@ -7,6 +7,8 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
+    byebug (10.0.2)
+    coderay (1.1.2)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
     declarative (0.0.10)
@@ -20,9 +22,16 @@ GEM
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
     ice_nine (0.11.2)
+    method_source (0.9.0)
     mimemagic (0.3.2)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.6.0)
+      byebug (~> 10.0)
+      pry (~> 0.10)
     public_suffix (3.0.2)
     representable (3.0.4)
       declarative (< 0.1.0)
@@ -50,6 +59,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pry-byebug
   tracker_api
 
 BUNDLED WITH
