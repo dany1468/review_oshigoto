@@ -15,6 +15,7 @@ GEM
     declarative-option (0.1.0)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+    dotenv (2.5.0)
     equalizer (0.0.11)
     excon (0.62.0)
     faraday (0.15.2)
@@ -59,6 +60,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   pry-byebug
   tracker_api
 
